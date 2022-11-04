@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+}
+body{
+  background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: white;
+}
+.Titulo{
+
+  width: 2010px;
+  height: 250px;
+  position: relative;
+}
+.confiTi{
+  background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 800px;
+  height: 120px;
+  position: absolute;
+  top: 65px;
+  left: 585px;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 30px;
+
+}
+.Contenidos{
+
+  width: 2010px;
+  height: 1000px;
+  position: relative;
+}
+.ConfigCont{
+  background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  top: 50px;
+  left: 590px;
+  border-radius: 30px;
+
+
+}
+.ConfigCont li{
+  padding-left: 80px;
+  padding-top: 30px;
+}
+
+form input{
+  font-size: 35px;
+  border: 2px solid dodgerblue;
+  border-radius: 10px;
+}
+label{
+  font-size: 40px;
+}
+form .Contenedorbtn{
+  padding-top: 80px;
+}
+.Contenedorbtn{
+  height: 60px;
+  width: 760px;
+  border-left: 20px;
+}
+
+.Contenedorbtn{
+  display: flex;
+  border: 0px;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 20px;
+}
+.btn1 ,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7{
+  background: #396afc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: 100px;
+height: 60px;
+text-align: center;
+color: white;
+border: 2px solid aqua;
+border-radius: 20px;
+font-size: 20px;
+}
+.btn1:hover {
+background-color: aqua;
+}
+
+
